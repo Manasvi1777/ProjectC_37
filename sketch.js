@@ -38,7 +38,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(600, 500);
   
   ground = createSprite(1200,630,400,20);
   ground.addImage("ground",groundImage);
