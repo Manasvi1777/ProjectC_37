@@ -38,7 +38,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(600, 400);
   
   ground = createSprite(1200,630,400,20);
   ground.addImage("ground",groundImage);
@@ -141,8 +141,8 @@ function draw() {
   //stop trex from falling down
   trex.collide(invisibleGround);
   
-  camera.position.x=trex.x;
-  camera.position.y=300;
+  camera.position.x=200;
+  camera.position.y=trex.y;
   drawSprites();
 }
 
